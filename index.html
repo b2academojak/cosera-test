@@ -1,28 +1,24 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JAK Module3-solution</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  </head>
-<body>
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Food, LLC</title>
+		<link rel="stylesheet" href="css/css.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<meta name="viewport" content="widthdevice-width, initial-scales=1">
 
-  <header>
+
+	</head>
+<header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
           <a href="index.html" class="pull-left visible-md visible-lg">
-          
+            <div id="logo-img"></div>
           </a>
-          <div class="navbar-brand">
-            <a href="index.html"><h1>Food,LLC</h1></a>
-           <p>Our Menu</<p>
-          </div>
+
+        <div class="navbar-brand"><h1>Food, LLC</h1></div>
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -33,46 +29,67 @@
         </div>
         
         <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="visible-xs active">
-              <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span> Home</a>
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li class="active">
             </li>
-            <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+             <ul>
+              <li><a href ="#chicken"> <p id="#chicken">chicken</p></a> </li>
+            <li> <a href ="#beef"> <p id="#beef2">beef</p></a> </li>
+             <li> <a href ="#sushi"> <p id="#sushi3">sushi</p></a> </li>
         
-            </li>
+           
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
-  <div id="main-content" class="container">
-    <div class="jumbotron">
-      <p>Chicken</p>
-     <p>Chicken is the most common type of poultry in the world.[1] Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent in numerous cuisines.
 
-Chicken can be prepared in a vast range of ways, including baking, grilling, barbecuing, frying, and boiling. Since the latter half of the 20th century, prepared chicken has become a staple of fast food. Chicken is sometimes cited as being more healthful than red meat, with lower concentrations of cholesterol and saturated fat.[2]
 
-The poultry farming industry that accounts for chicken production takes on a range of forms across different parts of the world. In developed countries, chickens are typically subject to intensive farming methods while less-developed areas raise chickens using more traditional farming techniques. The United Nations estimates there to be 19 billion chickens on Earth today, making them outnumber humans more than two to one</p>
-    </div>
-      </div>
-      </div>
-        
-        </section>
-  
-        </section>
-        <section id="testimonials" class="col-sm-4">
-       
-        </section>
-      </div>
-    </div>
-  </footer>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+
+
+	<body>
+	 	<h1 class="title-container">Our Menu</h1>
+
+
+
+	 	<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12" >	 
+
+				<div class="menu">
+				<div class ="menu-title" id="chicken">chicken</div>
+
+				<p id="content">
+		         he view (desktop, tablet or mobile). Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own. (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)
+				</p>
+			</div>
+			</div>
+
+			
+			<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="menu">
+					<div class ="menu-title" id="beef">beef</div>
+					<p id="content">
+					he view (desktop, tablet or mobile). Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own. (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)</p>
+				</div>
+				</div>
+
+			<div class="box">
+
+			<div class=" col-lg-4 col-md-12, col-sm-12">
+				<div class="menu">
+				<div class ="menu-title" id="sushi">sushi</div>
+				<p id="content">
+				he view (desktop, tablet or mobile). Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own. (Hint: use relative and absolute positioning and offsets as discussed in Lecture 22.)
+				</p>
+			</div>
+			</div>
+			</div>
+		</div>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+	</body>
 </html>
